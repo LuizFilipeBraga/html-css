@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <link rel="shortcut icon" href="C:\Users\lippe\OneDrive\Documentos\Estudos\html-css\exercicios\icon.ico" type="image/x-icon">
+    <style>
+        h1{  /* box-level */
+            height: 150px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            
+            padding-top: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+
+            margin-top: 15px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            margin-left: 15px;
+
+            outline-width: 7px;
+            outline-style: dashed;
+            outline-color: rgb(31, 124, 17);
+
+        }
+
+        a{ /* inline-level */
+            border-width: 5px;
+            border-style: solid;
+            border-color: blue;
+            /* display: box; transforma em box-level*/
+        }
+
+        h2{  /* box-level */
+            height: 150px;
+            width: 300px;
+
+            border: 5px solid blue;
+
+            padding: 10px;
+
+            outline: 7px dashed rgb(31, 124, 17);
+
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box Level</h1>
+    <p>Paragráfos também são exemplos de box-levels, mas os <a href="#">links são exemplos de inline-level</a> vamos ver como isso tudo funciona.</p>
+
+    <h2>Centralizando margem</h2>
+</body>
+</html>

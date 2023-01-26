@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="C:\Users\lippe\OneDrive\Documentos\Estudos\html-css\exercicios\icon.ico">
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(241, 238, 238);
+        }
+
+        header{
+            background-color: rgba(126, 113, 113, 0.666);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            margin: 10px 20px;
+            color: rgb(188, 16, 16);
+
+        }
+
+        nav{
+            background-color: grey;
+            box-shadow: 3px 2px 5px 1px black;
+        }
+        nav > a {
+            color: white;
+            margin: 0px 30px;
+            text-decoration: none;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(175, 175, 175);
+            color: rgb(113, 25, 25);
+            margin-left: 20px;
+        }
+        article > aside{
+            background-color: rgb(67, 67, 67);
+            color: red;
+        }
+
+        footer{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: rgb(43, 43, 43);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Site123 </a>
+            <a href="#">Site123 </a>
+            <a href="#">Site123 </a>
+            <a href="#">Site123 </a>
+            <a href="#">Site123 </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Lorem Gerador</h2>
+                <aside>
+                    <p>Artigo de Lorem Bla bla bla</p>
+                </aside>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officiis nobis quis natus laborum cupiditate. Reiciendis repellendus quod illum magnam beatae, fugiat dolores sunt, est aliquam sequi quo quae minima!</p>
+            </article>
+        </section>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Patrocinios">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Luiz Braga &copy;</p>
+    </footer>
+
+</body>
+</html>
